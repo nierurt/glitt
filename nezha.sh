@@ -5,6 +5,7 @@ NEZHA_SERVER=$1
 NEZHA_PORT=$2
 NEZHA_KEY=$3
 
+
 # 三个变量不全则不安装哪吒客户端
 check_variable() {
   [[ -z "${NEZHA_SERVER}" || -z "${NEZHA_PORT}" || -z "${NEZHA_KEY}" ]] && exit 0
